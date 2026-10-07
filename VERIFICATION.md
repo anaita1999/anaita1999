@@ -17,4 +17,10 @@ Public profile facts and project evidence were checked on **7 October 2026**. Lo
 
 Contact/project URL check on 8 October 2026: the three featured repositories, GitHub profile, Instagram profile and Arisetek returned HTTP 200. Arisetek required one retry after a hosting cold start. LinkedIn returned HTTP 999, an automated-request restriction; its exact public-profile URL is preserved.
 
-**Pending:** live GitHub profile verification. Local browser checks do not establish that the files have been published or prove identical rendering in every browser or GitHub image-serving configuration. Contact identities and project destinations are grounded in the public sources listed in [SOURCES.md](./SOURCES.md).
+## Live publication verified — 8 October 2026
+
+The public repository [anaita1999/anaita1999](https://github.com/anaita1999/anaita1999) uses `main` as its default branch. The complete package was published in commit `cea75e2981861a55457f2920241b73894fa4b7eb`; all 27 remote file hashes matched the local package before this verification-note update.
+
+The public [GitHub profile](https://github.com/anaita1999) returned HTTP 200. Its rendered README HTML contains exactly the five intended panel images and all seven project/contact links. Each GitHub-rewritten image URL returned HTTP 200 with `image/svg+xml`, and its response bytes matched the locally tested SVG exactly.
+
+**Scope:** local desktop/mobile browser rendering and live GitHub delivery were checked separately. A final visual inspection inside the live GitHub page was unavailable because browser controls were unavailable at publication time. HTTP and byte checks confirm delivery of the tested files; they do not prove identical rendering or animation in every browser. Contact identities and project destinations are grounded in [SOURCES.md](./SOURCES.md).
